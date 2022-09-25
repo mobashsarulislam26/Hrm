@@ -9,6 +9,7 @@ $data=$conn->query("DELETE FROM candidate WHERE id=$id");
 // $_SESSION['msg']='Deleted successfully!';
 // $_SESSION['class']='danger';
 // header('Location: candidate.php');
+// page Refresh
 ?>
  <script>
       window.location.href ="candidate.php";
